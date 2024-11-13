@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    background-color: #0f0d0d;
+    user-select: none;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+#header{
+    width: 100%;
+    height: 7vh;
+}
+
+#img{
+    max-height: 7vh;
+}
+#img:hover{
+    cursor: pointer;
+}
+
+#main-container{
+    padding-left: 2.5vw;
+}
+
+#main{
+    width: 95vw;
+    height: 93vh;
+    background-color: rgba(45, 45, 45, 0.05);
+    background-blend-mode: color;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 7%;
+    color: white;
+    background-color: rgba(45, 45, 45, 0.1);
+}
+
+#navbar #left-group{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+    width: 10em;
+}
+
+#navbar #center-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 10em;
+}
+
+#navbar .profile-pic{
+    border: 1px solid white;
+    border-radius: 7%;
+}
+
+#navbar #right-group{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 100%;
+    width: 10em;
+}
+
+#navbar .nav-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 5em;;
+}
+#navbar .nav-icon:hover{
+    cursor: pointer;
+    border: 1px solid white;
+    font-weight: bold;
+    color: cyan;
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 93%;
+    width: 100%;
+}
+
+#welcome-sign{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    height: 93%;
+    width: 100%;
+}
+
